@@ -6,7 +6,7 @@
   "homepage": "https://github.com/Ihor-Melnyk/goit-js-hw-08#readme",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
+    "build": "parcel build dist/*.html --public-url /goit-js-hw-08/"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,8 @@
     "sass": "^1.32.8"
   },
   "dependencies": {
+    "@vimeo/player": "^2.16.4",
+    "lodash.throttle": "^4.1.1",
     "simplelightbox": "^2.10.3"
   }
 }
