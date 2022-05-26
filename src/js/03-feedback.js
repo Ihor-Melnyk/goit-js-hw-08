@@ -20,6 +20,7 @@ function onInput(e) {
 
 function onFormSubmit(e) { 
     e.preventDefault();
+    console.log(JSON.parse(localStorage.getItem(KEY)));
     e.currentTarget.reset();
     localStorage.removeItem(KEY);
 }
